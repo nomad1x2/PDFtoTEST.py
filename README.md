@@ -7,5 +7,8 @@ The point of this program was to help with self studying, I have yet to incorpor
 
 To run:
 
-#Generate first set questions
-#py ./PDFtoTest.py 1 >> test_set.json
+Generate first set questions:
+py ./PDFtoTest.py 1 >> test_set1.json
+
+Generate all sets:
+py ./PDFtoTest.py >> test_sets.json
