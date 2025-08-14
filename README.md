@@ -12,3 +12,7 @@ py ./PDFtoTest.py 1 >> test_set1.json
 
 Generate all sets:
 py ./PDFtoTest.py >> test_sets.json
+
+Note:
+  - Code is built very specific to the test set given. Additionally, the script does not pull images from the image questions and some sets/questions appear invalid.
+  - Manual verification of the JSON generated may be required.
